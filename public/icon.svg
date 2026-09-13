@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  
+  <!-- Store Roof Awning -->
+  <path d="M96 200 L128 128 L384 128 L416 200 Z" fill="#ffffff" opacity="0.95" />
+  <path d="M96 200 C96 220 120 220 128 200 C136 220 160 220 168 200 C176 220 200 220 208 200 C216 220 240 220 248 200 C256 220 280 220 288 200 C296 220 320 220 328 200 C336 220 360 220 368 200 C376 220 400 220 416 200 L416 190 L96 190 Z" fill="#ecfdf5" />
+  
+  <!-- Store Front Body -->
+  <rect x="120" y="210" width="272" height="174" rx="12" fill="#ffffff" opacity="0.9" />
+  
+  <!-- Door -->
+  <rect x="220" y="260" width="72" height="124" rx="6" fill="#047857" />
+  <circle cx="276" cy="326" r="6" fill="#fcd34d" />
+  
+  <!-- Windows -->
+  <rect x="144" y="250" width="56" height="64" rx="8" fill="#d1fae5" />
+  <rect x="312" y="250" width="56" height="64" rx="8" fill="#d1fae5" />
+  
+  <!-- Financial Growth Badge (Rising Trend) -->
+  <circle cx="390" cy="370" r="64" fill="#10b981" stroke="#ffffff" stroke-width="8" filter="url(#shadow)" />
+  <path d="M360 385 L382 360 L398 372 L422 342" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <polygon points="424,342 410,344 422,356" fill="#ffffff" />
+</svg>

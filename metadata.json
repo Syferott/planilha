@@ -1,0 +1,6 @@
+{
+  "name": "Controle de Movimentação e Entradas da Loja",
+  "description": "Painel financeiro de entradas mês a mês com gráficos interativos, comparativo anual e exportação de planilha Excel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
